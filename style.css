@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    max-width: 800px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: hsla(216, 50%, 16%, 0.1);
+}
+.container2{
+    max-width: 700px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: hsla(216, 55%, 10%, 0.5);
+}
+.container{
+    background-color: hsl(216, 50%, 16%);
+    position: relative;
+    border-radius: 20px;
+    max-width: 600px; /* Add a max-width for responsiveness */ 
+    overflow: hidden; /* Hide any overflow content */
+    
+}
+
+img{
+    object-fit:fill;
+    /* margin-bottom: 3px; */
+    /* box-sizing: border-box; */
+    border-radius: 10px;
+    
+}
+.image{
+    /* overflow: hidden; */
+    position: relative;
+    padding: 20px 20px 0 20px;
+}
+.headerImage{
+    height: 250px;
+    /* margin: 25px; */
+    width: 100%;
+    object-fit: cover;
+    /* margin: 20px; */
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.heading{
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px 0 15px;
+}
+.para{
+    color: rgb(155, 152, 152);
+    font-size: 15px;
+    padding: 15px;
+}
+i{
+    padding-left: 15px;
+    padding-right: 4px;
+}
+.eth{
+    display: inline-block;
+    color: aqua;
+    font-weight: bold;
+    padding: 0 70px 10px 0;
+}
+.dayLeft{
+    display: inline-block;
+    color: rgb(155, 152, 152);
+    padding-right: 10px;
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+}
+.profilePicture{
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-right: 70px;
+}
+.profile{
+    
+    margin-left: 0;
+}
+.details{
+    
+    color: grey;
+    font-size: 13px;
+    /* margin-bottom: 20px; */
+    margin-top: 15px;
+    /* margin-right: 80px; */
+}
+
+span{
+    margin-left: 3px;
+    color: white;
+}
+
+hr{
+    width: 90%; /* Set the width to 80% */
+    margin: 0 auto; /* Center the line */
+    border: none; /* Remove default border */
+    background-color: rgba(255, 255, 255, 0.3); /* Set faded color */
+    height: 1px; /* Set the height of the line */
+}
+
+
+span:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+.heading:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+.headerImage:hover {
+    transform: scale(1.05); /* Increase the size on hover */
+}
